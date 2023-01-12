@@ -62,6 +62,8 @@ module.exports = configure(function (/* ctx */) {
         node: 'node16'
       },
 
+      publicPath: '/scrum-poker',
+
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
