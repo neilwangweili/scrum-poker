@@ -37,9 +37,8 @@ jobs:
         with:
           name: production
           path: ./dist/pwa
-
       - name: Deploy to Github Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/pwa
+          branch: gh-pages
+          folder: ./dist/pwa
