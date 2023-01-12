@@ -31,8 +31,6 @@ jobs:
         with:
           name: production
           path: ./dist/pwa
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
   deploy:
     environment:
       name: github-pages
