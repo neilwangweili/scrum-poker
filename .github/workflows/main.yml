@@ -38,7 +38,9 @@ jobs:
           name: production
           path: ./dist/pwa
       - name: Deploy to Github Pages
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: github-pages
-          folder: ./dist/pwa
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/pwa
+          publish_branch: github-pages
+          full_commit_message: 'feat: Automatic generated.'
