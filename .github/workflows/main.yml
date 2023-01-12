@@ -16,19 +16,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Install Node.js 
-        uses: actions/setup-node@v1 
-        with: 
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
           node-version: 16.17.1
       - name: Setup pages
         run: yarn install
       - name: Build with quasar
         run: yarn build:pwa
-      - name: Run tests 
-        run: echo 'Unimplement command now.'
-      - name: Upload production-ready build files 
-        uses: actions/upload-artifact@v2 
-        with: 
+      - name: Run tests
+        run: echo 'Unimplemented command now.'
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
           name: production
           path: ./dist/pwa
       - name: Upload artifact

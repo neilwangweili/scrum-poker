@@ -52,7 +52,10 @@
     "workbox-expiration": "^6.5.0",
     "workbox-precaching": "^6.5.0",
     "workbox-routing": "^6.5.0",
-    "workbox-strategies": "^6.5.0"
+    "workbox-strategies": "^6.5.0",
+    "less": "3.13.1",
+    "less-loader": "7.0.0",
+    "jest-when": "3.0.1"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
