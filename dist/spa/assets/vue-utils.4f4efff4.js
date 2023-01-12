@@ -1,0 +1,1 @@
+import{Q as o}from"./QBtn.7caf06cd.js";import{v as r,_ as s,y as n,z as t,u as a}from"./index.7234b038.js";const p=r({name:"AppLogo",props:{size:{type:[String,Number],default:"24px"}}});function c(e,i,u,f,m,_){return n(),t(o,{name:"troubleshoot",size:e.size},null,8,["size"])}var z=s(p,[["render",c]]);function $(e){return a(e)}export{z as A,$ as u};
