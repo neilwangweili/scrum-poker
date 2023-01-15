@@ -36,6 +36,8 @@
     "@quasar/babel-preset-app": "^2.0.1",
     "@quasar/quasar-app-extension-testing": "^2.0.4",
     "@quasar/quasar-app-extension-testing-unit-jest": "^3.0.0-alpha.10",
+    "@types/jest": "24.0.19",
+    "@types/jest-when": "2.7.3",
     "@types/node": "^12.20.21",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
@@ -44,6 +46,9 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-vue": "^8.5.0",
+    "jest-when": "3.0.1",
+    "less": "3.13.1",
+    "less-loader": "7.0.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4",
     "workbox-build": "^6.5.0",
@@ -52,12 +57,7 @@
     "workbox-expiration": "^6.5.0",
     "workbox-precaching": "^6.5.0",
     "workbox-routing": "^6.5.0",
-    "workbox-strategies": "^6.5.0",
-    "less": "3.13.1",
-    "less-loader": "7.0.0",
-    "jest-when": "3.0.1",
-    "@types/jest": "24.0.19",
-    "@types/jest-when": "2.7.3"
+    "workbox-strategies": "^6.5.0"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",
