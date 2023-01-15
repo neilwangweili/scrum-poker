@@ -16,7 +16,7 @@ export class Cards {
       new Card("40", 'rgb(199, 79, 66)', 200),
       new Card("100", 'rgb(199, 79, 66)', 150),
       new Card("?", 'rgb(199, 79, 66)', 400),
-      new Card("∞", 'rgb(199, 79, 66)', 400),
+      new Card("∞", 'rgb(199, 79, 66)', 350),
       new Card("Coffee", 'rgb(199, 79, 66)', 100),
       new Card("Not Ready", 'rgb(199, 79, 66)', 100)
     ];
